@@ -1,0 +1,125 @@
+void MainWindow::AllConnects() {
+  thread_detect = new QThread;
+  detectUtil->moveToThread(thread_detect);
+
+  connect(detectUtil, &DetectUtil::SendDetetFrameRes, this,
+          &MainWindow::ShowImg2Label, Qt::DirectConnection);
+
+  connect(detectUtil, &DetectUtil::SendDetectResult, this,
+          [=](QList<DetectRes> resList) {
+            QString str;
+            foreach (DetectRes res, resList) {
+              QString es = QString::number(res.ClassID()) + " " +
+                           QString::fromStdString(res.ClassName()) + " " +
+                           QString::number(res.Confidence()) + " " +
+                           QString::number(res.Left()) + " " +
+                           QString::number(res.Top()) + " " +
+                           QString::number(res.Right()) + " " +
+                           QString::number(res.Bottom());
+              str += es;
+              str += "\r\n";
+            }
+
+            ui->te_detect_res->setText(str);
+          });
+
+  // display performence info
+  connect(detectUtil, &DetectUtil::SendPerfIndicator, this,
+          [=](float video_fps, float inference_time, float compute_time) {
+            ui->lb_video_fps->setText(QString::number(video_fps));
+            ui->lb_compute_time->setText(QString::number(compute_time));
+
+            float max_fps = 1000.0 / inference_time;
+            ui->lb_inference_time->setText(QString::number(inference_time));
+            ui->lb_max_fps->setText(QString::number(max_fps));
+          });
+
+
+  connect(thread_detect, &QThread::started, detectUtil,
+          &DetectUtil::DetectVideo);
+
+  // btn_detect_img_start
+  connect(ui->action_start_detect_img, &QAction::triggered, this,
+          [=]() { detectUtil->DetectImg(this->file2detect); });
+
+  // btn_detect_video_start
+  connect(ui->action_start_detect, &QAction::triggered, this, [=]() {
+    detectUtil->SetSrc(this->file2detect);
+    thread_detect->start();//thread start
+  });
+
+  // btn_detect_video_stop
+  connect(ui->action_stop_detect, &QAction::triggered, this, [=]() {
+    if (thread_detect->isRunning() == true) {
+      detectUtil->StopDetect();//stop detect
+      thread_detect->quit();
+      thread_detect->wait();
+    }
+  });
+
+  // btn_detect_video_pause
+  connect(ui->action_pause_detect, &QAction::triggered, this,
+          [=]() { detectUtil->PauseDetect(); });
+
+  connect(ui->action_zed_start, &QAction::triggered, this, [=]() {});
+  connect(ui->action_zed_stop, &QAction::triggered, this, [=]() {});
+}
+
+
+
+
+
+
+///////////////////////////////////////
+
+
+// void
+// MainWindow::on_action_select_image_triggered()
+//{
+//  this->file2detect = QFileDialog::getOpenFileName();
+//}
+
+// void
+// MainWindow::on_action_select_videoo_triggered()
+//{
+//  this->file2detect = QFileDialog::getOpenFileName();
+//}
+
+// void MainWindow::DetectIMG() {
+//  if (this->_detector != nullptr) {
+//    delete this->_detector;
+//  }
+//  this->_detector = new ImgDetector(this->yolo_model, this);
+//  this->_detector->Start();
+//}
+
+// void MainWindow::DetectVideo() {
+//  if (this->_detector != nullptr) {
+//    delete this->_detector;
+//  }
+//  this->_detector = new VideoDetTracker(this->yolo_model, this);
+//  this->_detector->Start();
+//}
+
+void
+MainWindow::AllConnects()
+{
+  //  thread_detect = new QThread;
+
+  //  connect(ui->action_start_detect, &QAction::triggered, this, [=]() {
+  ////    if (this->_detector != nullptr) {
+  ////      delete this->_detector;
+  ////    }
+  //    this->_detector = new VideoDetTracker(this->yolo_model);
+  //    this->_detector->moveToThread(thread_detect);
+
+  //    // thread start ---> detector start
+  //    connect(this->thread_detect, &QThread::started, this->_detector,
+  //            &DetTracker::Start);
+  //    connect(this->_detector, &DetTracker::SendDetectFrame, this,
+  //            &MainWindow::ShowImg2Label, Qt::DirectConnection);
+
+  //    this->_detector->SetMediaPath(this->file2detect.toStdString());
+  //    thread_detect->start();  // thread start
+  //  });
+}

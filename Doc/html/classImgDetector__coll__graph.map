@@ -1,0 +1,6 @@
+<map id="ImgDetector" name="ImgDetector">
+<area shape="rect" id="node1" title=" " alt="" coords="5,247,108,273"/>
+<area shape="rect" id="node2" href="$classDetector.html" title=" " alt="" coords="17,171,96,197"/>
+<area shape="rect" id="node3" title=" " alt="" coords="14,5,89,32"/>
+<area shape="rect" id="node4" href="$classYOLO.html" title=" " alt="" coords="73,81,129,108"/>
+</map>

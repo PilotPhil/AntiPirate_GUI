@@ -1,0 +1,64 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/ninja/linux/ninja cmTC_bfb1f && [1/2] Building CXX object CMakeFiles/cmTC_bfb1f.dir/CheckFunctionExists.cxx.o
+[2/2] Linking CXX executable cmTC_bfb1f
+FAILED: cmTC_bfb1f 
+: && /usr/bin/c++ -DCHECK_FUNCTION_EXISTS=sgemm_  CMakeFiles/cmTC_bfb1f.dir/CheckFunctionExists.cxx.o -o cmTC_bfb1f   && :
+/usr/bin/ld: CMakeFiles/cmTC_bfb1f.dir/CheckFunctionExists.cxx.o: in function `main':
+CheckFunctionExists.cxx:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/ninja/linux/ninja cmTC_4e16c && [1/2] Building CXX object CMakeFiles/cmTC_4e16c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4e16c
+FAILED: cmTC_4e16c 
+: && /usr/bin/c++   CMakeFiles/cmTC_4e16c.dir/src.cxx.o -o cmTC_4e16c   && :
+/usr/bin/ld: CMakeFiles/cmTC_4e16c.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/ninja/linux/ninja cmTC_5dbfe && [1/2] Building CXX object CMakeFiles/cmTC_5dbfe.dir/CheckFunctionExists.cxx.o
+[2/2] Linking CXX executable cmTC_5dbfe
+FAILED: cmTC_5dbfe 
+: && /usr/bin/c++ -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_5dbfe.dir/CheckFunctionExists.cxx.o -o cmTC_5dbfe  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+

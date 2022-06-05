@@ -1,0 +1,341 @@
+{
+	"BUILD_DIR" : "/home/dwb/Documents/Project/AntiPirateGUI/build/AntiPirateGUI_autogen",
+	"CMAKE_BINARY_DIR" : "/home/dwb/Documents/Project/AntiPirateGUI/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/dwb/Documents/Project/AntiPirateGUI/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/dwb/Documents/Project/AntiPirateGUI",
+	"CMAKE_EXECUTABLE" : "/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/dwb/Documents/Project/AntiPirateGUI/CMakeLists.txt",
+		"/home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/3.21.1/CMakeSystem.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/usr/local/zed/zed-config-version.cmake",
+		"/usr/local/zed/zed-config.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindBLAS.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckFunctionExists.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindThreads.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckLibraryExists.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindCUDA.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindThreads.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckLibraryExists.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindCUDA/select_compute_arch.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVModules.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindGLUT.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/SelectLibraryConfigurations.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindGLEW.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/SelectLibraryConfigurations.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindOpenGL.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindCUDA.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindThreads.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckLibraryExists.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/FindCUDA/select_compute_arch.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/dwb/Documents/Project/AntiPirateGUI",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/DataType/PerfInfo.h",
+			"MU",
+			"776UG4D5M4/moc_PerfInfo.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/DataType/TrackBox.h",
+			"MU",
+			"776UG4D5M4/moc_TrackBox.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Detector/NetConfig.h",
+			"MU",
+			"3SMZKU4CQY/moc_NetConfig.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Detector/yolo.h",
+			"MU",
+			"3SMZKU4CQY/moc_yolo.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort/FrameDraw.h",
+			"MU",
+			"ZEXPZPXTEZ/moc_FrameDraw.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort/Hungarian.h",
+			"MU",
+			"ZEXPZPXTEZ/moc_Hungarian.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort/KalmanTracker.h",
+			"MU",
+			"ZEXPZPXTEZ/moc_KalmanTracker.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort/Sort.h",
+			"MU",
+			"ZEXPZPXTEZ/moc_Sort.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Tracker/DetTracker.h",
+			"MU",
+			"VWQTNCF6CV/moc_DetTracker.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Tracker/VideoDetTracker.h",
+			"MU",
+			"VWQTNCF6CV/moc_VideoDetTracker.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Tracker/ZedDetTracker.h",
+			"MU",
+			"VWQTNCF6CV/moc_ZedDetTracker.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/UI/mainwindow.h",
+			"MU",
+			"OJXEROF5U6/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/UI/setnetdialog.h",
+			"MU",
+			"OJXEROF5U6/moc_setnetdialog.cpp",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/UI/setzedcamdialog.h",
+			"MU",
+			"OJXEROF5U6/moc_setzedcamdialog.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/dwb/Documents/Project/AntiPirateGUI/build/AntiPirateGUI_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/dwb/Documents/Project/AntiPirateGUI/build/AntiPirateGUI_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB", "_DEBUG" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/dwb/Documents/Project/AntiPirateGUI/build",
+		"/home/dwb/Documents/Project/AntiPirateGUI",
+		"/usr/local/zed/include",
+		"/usr/local/cuda/include",
+		"/home/dwb/Documents/Project/AntiPirateGUI/Source/Detector",
+		"/home/dwb/Documents/Project/AntiPirateGUI/Source/UI",
+		"/home/dwb/Documents/Project/AntiPirateGUI/Source/Tracker",
+		"/home/dwb/Documents/Project/AntiPirateGUI/Source/DataType",
+		"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort",
+		"/usr/local/include/opencv4",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/dwb/programs/CLion-2021.3.2/clion-2021.3.2/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/dwb/Documents/Project/AntiPirateGUI/build/AntiPirateGUI_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/AntiPirateGUI_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/AntiPirateGUI_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Detector/NetConfig.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Detector/yolo.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort/FrameDraw.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort/Hungarian.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort/KalmanTracker.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Sort/Sort.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Tracker/DetTracker.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Tracker/VideoDetTracker.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/Tracker/ZedDetTracker.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/UI/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/UI/setnetdialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/UI/setzedcamdialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dwb/Documents/Project/AntiPirateGUI/Source/main.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

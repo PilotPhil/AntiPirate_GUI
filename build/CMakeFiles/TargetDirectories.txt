@@ -1,0 +1,4 @@
+/home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/edit_cache.dir
+/home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/rebuild_cache.dir
+/home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/AntiPirateGUI.dir
+/home/dwb/Documents/Project/AntiPirateGUI/build/CMakeFiles/AntiPirateGUI_autogen.dir

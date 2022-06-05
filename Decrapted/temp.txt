@@ -1,0 +1,59 @@
+    // init zed cam detector
+    //    connect(ui->action_ZED_CAM, &QAction::triggered, this, [=]() {
+    //        int ret = s2.exec();
+
+    //        if (ret == QDialog::Accepted) {
+    //            auto init_params = s2.GetCamInitParams();
+
+    //            // init detector for zed camera
+    //            this->_detector = new ZedDetTracker(this->yolo_model, init_params);
+
+    //            this->_detector->moveToThread(this->thread_detect);
+
+    //            // thread start ---> detector start
+    //            connect(this->thread_detect,
+    //                &QThread::started,
+    //                this->_detector,
+    //                &DetTracker::Start);
+
+    //            // btn start ---> thread start
+    //            connect(ui->pb_start_detect, &QPushButton::clicked, this, [=]() {
+    //                this->thread_detect->start();
+    //            });
+
+    //            // detector sendframe ---> lable showframe
+    //            connect(this->_detector,
+    //                &DetTracker::SendDetectFrame,
+    //                this,
+    //                &MainWindow::ShowImg2Label,
+    //                Qt::DirectConnection);
+
+    //            connect(this->_detector,
+    //                &DetTracker::SendDetectRes,
+    //                this,
+    //                &MainWindow::DisplayDetectRes);
+
+    //            connect(this->_detector,
+    //                &DetTracker::SendPerfInfo,
+    //                this,
+    //                &MainWindow::DisplayPerfInfo);
+
+    //            connect(this->_detector,
+    //                &DetTracker::SendStopDetect,
+    //                this, [=]() { ui->label_dispaly->setText("no signal"); });
+
+    //            // btn pause ---> detector pause
+    //            connect(ui->pb_pause_detect, &QPushButton::clicked, this, [=]() {
+    //                this->_detector->Pause();
+    //            });
+
+    //            // btn stop ---> detector stop
+    //            connect(ui->pb_stop_detect, &QPushButton::clicked, this, [=]() {
+    //                this->_detector->Stop();
+    //                thread_detect->quit();
+    //                thread_detect->wait();
+    //            });
+    //        } else {
+    //            return;
+    //        }
+    //    });

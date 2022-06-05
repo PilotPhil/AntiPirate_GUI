@@ -1,0 +1,7 @@
+<map id="DetTracker" name="DetTracker">
+<area shape="rect" id="node1" title=" " alt="" coords="151,80,229,107"/>
+<area shape="rect" id="node3" href="$classImgDetector.html" title=" " alt="" coords="5,155,108,181"/>
+<area shape="rect" id="node4" href="$classVideoDetector.html" title=" " alt="" coords="133,155,247,181"/>
+<area shape="rect" id="node5" href="$classZedCamDetector.html" title=" " alt="" coords="271,155,405,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="153,5,227,32"/>
+</map>

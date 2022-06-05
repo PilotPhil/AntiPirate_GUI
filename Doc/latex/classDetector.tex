@@ -1,0 +1,91 @@
+\hypertarget{classDetector}{}\doxysection{DetTracker Class Reference}
+\label{classDetector}\index{DetTracker@{DetTracker}}
+
+
+Inheritance diagram for DetTracker\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDetector__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for DetTracker\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classDetector__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDetector_a9697fa0fa6e45852d119f914cd5050d6}\label{classDetector_a9697fa0fa6e45852d119f914cd5050d6}} 
+void {\bfseries Send\+Detect\+Frame} (const cv\+::\+Mat \&frame)
+\item 
+\mbox{\Hypertarget{classDetector_a3d180c602bcfe9e97afbbe847f6133bb}\label{classDetector_a3d180c602bcfe9e97afbbe847f6133bb}} 
+void {\bfseries Send\+Detect\+Res} (const Q\+List$<$ \mbox{\hyperlink{classDetectRes}{Detect\+Res}} $>$ res\+List)
+\item 
+\mbox{\Hypertarget{classDetector_a7d7b4a2d17684a0f3abc15f20e65c6f4}\label{classDetector_a7d7b4a2d17684a0f3abc15f20e65c6f4}} 
+void {\bfseries Send\+Process\+Time} (float t)
+\item 
+\mbox{\Hypertarget{classDetector_aa8a969643538ce7b542e4fd36503c26e}\label{classDetector_aa8a969643538ce7b542e4fd36503c26e}} 
+void {\bfseries Send\+Perf\+Info} (float inference\+\_\+time, float compute\+\_\+time)
+\item 
+\mbox{\Hypertarget{classDetector_a577ff3af6bdd5148e4dcb052cdf0f08b}\label{classDetector_a577ff3af6bdd5148e4dcb052cdf0f08b}} 
+void {\bfseries Send\+Stop\+Detect} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDetector_afb3259f3465edcb62746be003be301d6}\label{classDetector_afb3259f3465edcb62746be003be301d6}} 
+{\bfseries DetTracker} (\mbox{\hyperlink{classYOLO}{Y\+O\+LO}} $\ast$yolo, Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\Hypertarget{classDetector_aee08d6f9ded0ce3447d20f474e9b9007}\label{classDetector_aee08d6f9ded0ce3447d20f474e9b9007}} 
+virtual void {\bfseries Start} ()=0
+\item 
+\mbox{\Hypertarget{classDetector_a3180cf5fa6bf8f27e5fdfe6838d1fd07}\label{classDetector_a3180cf5fa6bf8f27e5fdfe6838d1fd07}} 
+virtual void {\bfseries Pause} ()=0
+\item 
+\mbox{\Hypertarget{classDetector_accc31ab102aae0c8f31ca008addfec50}\label{classDetector_accc31ab102aae0c8f31ca008addfec50}} 
+virtual void {\bfseries Stop} ()=0
+\item 
+\mbox{\Hypertarget{classDetector_a748b0ad78a66e7c470f3af9f7a64b311}\label{classDetector_a748b0ad78a66e7c470f3af9f7a64b311}} 
+virtual void {\bfseries Process} ()=0
+\item 
+\mbox{\Hypertarget{classDetector_a6e70f99f5eb59d864a13e9931fa63a65}\label{classDetector_a6e70f99f5eb59d864a13e9931fa63a65}} 
+void {\bfseries Set\+Media\+Path} (const String \&pth)
+\item 
+\mbox{\Hypertarget{classDetector_a64bf55f6982622029bc228b7b5d37c65}\label{classDetector_a64bf55f6982622029bc228b7b5d37c65}} 
+void {\bfseries DrawFireBox\+Box} (const \mbox{\hyperlink{classDetectRes}{Detect\+Res}} \&res, cv\+::\+Mat \&frame)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDetector_a6f71318584ef752a81e62b6bc07f0842}\label{classDetector_a6f71318584ef752a81e62b6bc07f0842}} 
+Q\+Elapsed\+Timer {\bfseries elapsed\+Time}
+\item 
+\mbox{\Hypertarget{classDetector_acf3cf1f29cf2da7e2dad4e2e01baf795}\label{classDetector_acf3cf1f29cf2da7e2dad4e2e01baf795}} 
+bool {\bfseries \+\_\+is\+Pause} = false
+\item 
+\mbox{\Hypertarget{classDetector_adc9254b80eb480e907d9ad591eb7b32b}\label{classDetector_adc9254b80eb480e907d9ad591eb7b32b}} 
+bool {\bfseries \+\_\+is\+Stop} = false
+\item 
+\mbox{\Hypertarget{classDetector_a6f4ad6b85cf05fd130e43a9d67e668c1}\label{classDetector_a6f4ad6b85cf05fd130e43a9d67e668c1}} 
+String {\bfseries \+\_\+media\+\_\+path}
+\item 
+\mbox{\Hypertarget{classDetector_a9add475151c61d9c54e16971454dc8fd}\label{classDetector_a9add475151c61d9c54e16971454dc8fd}} 
+Mat {\bfseries \+\_\+frame}
+\item 
+\mbox{\Hypertarget{classDetector_a4abf695e607fde0bd114f9968d44fa04}\label{classDetector_a4abf695e607fde0bd114f9968d44fa04}} 
+\mbox{\hyperlink{classYOLO}{Y\+O\+LO}} $\ast$ {\bfseries \+\_\+yolo}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+detector/detector.\+h\item 
+detector/detector.\+cpp\end{DoxyCompactItemize}
